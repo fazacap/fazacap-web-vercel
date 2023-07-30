@@ -2,6 +2,7 @@
    "version": 2,
    "name": "fazacap",
     "routes": [
-       { "handle": "filesystem" }
+       { "handle": "filesystem" },
+      { "src": "/.*", "dest": "/" }
    ]
 }
